@@ -25,10 +25,10 @@ const CategoryPill = ({
         background: active ? `linear-gradient(135deg, ${category.color}, ${category.color}dd)` : undefined
       }}
     >
-      <span className="mr-2">{category.name}</span>
+<span className="flex-1">{category.name}</span>
       {count !== undefined && (
         <span className={cn(
-          "px-2 py-0.5 rounded-full text-xs font-semibold",
+          "ml-2 px-2 py-0.5 rounded-full text-xs font-semibold flex-shrink-0",
           active ? "bg-white bg-opacity-30 text-white" : "bg-gray-100 text-gray-600"
         )}>
           {count}
