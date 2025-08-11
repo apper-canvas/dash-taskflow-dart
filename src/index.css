@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  .font-display {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@layer components {
+  .toast-container {
+    @apply text-sm font-medium;
+  }
+  
+  .Toastify__toast {
+    @apply rounded-xl shadow-lg font-body;
+  }
+  
+  .Toastify__toast--success {
+    @apply bg-success text-white;
+  }
+  
+  .Toastify__toast--error {
+    @apply bg-accent-500 text-white;
+  }
+  
+  .Toastify__toast--info {
+    @apply bg-info text-white;
+  }
+  
+  .Toastify__toast--warning {
+    @apply bg-warning text-gray-800;
+  }
+  
+  .Toastify__progress-bar {
+    @apply bg-white bg-opacity-30;
+  }
+  
+  .Toastify__close-button {
+    @apply text-white hover:text-gray-200;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent;
+  }
+  
+  .glass-effect {
+    @apply bg-white bg-opacity-90 backdrop-blur-sm border border-white border-opacity-20;
+  }
+  
+  .shadow-soft {
+    box-shadow: 0 2px 8px rgba(91, 79, 233, 0.08);
+  }
+  
+  .shadow-hover {
+    box-shadow: 0 4px 20px rgba(91, 79, 233, 0.15);
+  }
+  
+  .transition-smooth {
+    @apply transition-all duration-200 ease-out;
+  }
+}

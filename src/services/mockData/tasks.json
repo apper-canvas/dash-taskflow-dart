@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "title": "Review quarterly financial reports",
+    "description": "Analyze Q3 financial performance and prepare summary for stakeholder meeting",
+    "status": "pending",
+    "priority": "high",
+    "categoryId": "1",
+    "dueDate": "2024-01-20",
+    "createdAt": "2024-01-15T09:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 2,
+    "title": "Update project documentation",
+    "description": "Revise API documentation and add new endpoint specifications",
+    "status": "in-progress",
+    "priority": "medium",
+    "categoryId": "2",
+    "dueDate": "2024-01-22",
+    "createdAt": "2024-01-14T14:30:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 3,
+    "title": "Schedule dentist appointment",
+    "description": "Book routine cleaning and checkup for next month",
+    "status": "completed",
+    "priority": "low",
+    "categoryId": "3",
+    "dueDate": "2024-01-18",
+    "createdAt": "2024-01-12T11:15:00Z",
+    "completedAt": "2024-01-17T16:45:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Prepare presentation for client meeting",
+    "description": "Create slides showcasing project progress and next phase proposals",
+    "status": "pending",
+    "priority": "high",
+    "categoryId": "1",
+    "dueDate": "2024-01-19",
+    "createdAt": "2024-01-13T08:20:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 5,
+    "title": "Code review for authentication module",
+    "description": "Review pull request #142 and provide feedback on security implementation",
+    "status": "in-progress",
+    "priority": "medium",
+    "categoryId": "2",
+    "dueDate": "2024-01-21",
+    "createdAt": "2024-01-15T13:45:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 6,
+    "title": "Plan weekend hiking trip",
+    "description": "Research trails, check weather forecast, and pack necessary gear",
+    "status": "pending",
+    "priority": "low",
+    "categoryId": "3",
+    "dueDate": "2024-01-23",
+    "createdAt": "2024-01-16T19:30:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 7,
+    "title": "Database optimization",
+    "description": "Analyze slow queries and implement indexing improvements",
+    "status": "completed",
+    "priority": "high",
+    "categoryId": "2",
+    "dueDate": "2024-01-17",
+    "createdAt": "2024-01-10T10:00:00Z",
+    "completedAt": "2024-01-16T14:20:00Z"
+  },
+  {
+    "Id": 8,
+    "title": "Team retrospective meeting",
+    "description": "Facilitate sprint retrospective and document action items",
+    "status": "pending",
+    "priority": "medium",
+    "categoryId": "1",
+    "dueDate": "2024-01-24",
+    "createdAt": "2024-01-16T12:15:00Z",
+    "completedAt": null
+  }
+]
