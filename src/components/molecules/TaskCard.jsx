@@ -111,7 +111,7 @@ const TaskCard = ({
         <div className="flex-1 min-w-0">
           <div className="flex items-center justify-between mb-2">
             <h3 className={cn(
-              "font-medium text-gray-900 font-display",
+"font-medium text-gray-900 font-display text-sm sm:text-base break-words",
               task.status === "completed" && "line-through text-gray-500"
             )}>
               {task.title}
@@ -146,7 +146,7 @@ const TaskCard = ({
             </p>
           )}
           
-          <div className="flex items-center justify-between">
+<div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-0">
             <div className="flex items-center space-x-2">
               <Badge variant={statusBadge.variant} size="sm">
                 {statusBadge.label}

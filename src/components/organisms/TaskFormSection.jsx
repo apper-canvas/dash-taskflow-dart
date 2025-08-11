@@ -17,14 +17,14 @@ const TaskFormSection = ({
   }
   
   return (
-    <div className={`bg-white rounded-xl border border-gray-200 shadow-sm ${className}`}>
-      <div className="p-6">
+<div className={`bg-white rounded-xl border border-gray-200 shadow-sm ${className}`}>
+<div className="p-4 sm:p-6">
         {!isExpanded ? (
           <Button
             onClick={() => setIsExpanded(true)}
             variant="primary"
             icon="Plus"
-            className="w-full justify-center h-12 text-base font-semibold"
+className="w-full justify-center h-10 sm:h-12 text-sm sm:text-base font-semibold"
           >
             Add New Task
           </Button>

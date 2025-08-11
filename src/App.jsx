@@ -5,7 +5,7 @@ import Layout from "@/components/organisms/Layout"
 
 function App() {
   return (
-    <div className="min-h-screen bg-background">
+<div className="min-h-screen bg-background px-4 sm:px-6 lg:px-8">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />

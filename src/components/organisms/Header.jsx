@@ -38,11 +38,12 @@ const Header = () => {
               <ApperIcon name="CheckSquare" size={24} className="text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold font-display gradient-text">
+<h1 className="text-lg sm:text-xl lg:text-2xl font-bold font-display gradient-text">
                 TaskFlow
               </h1>
               <p className="text-xs text-gray-500 font-medium">
-                Organize Your Day
+<span className="hidden sm:inline">Organize Your Day</span>
+                <span className="sm:hidden">TaskFlow</span>
               </p>
             </div>
           </div>

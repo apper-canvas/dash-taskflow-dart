@@ -92,7 +92,7 @@ const StatsOverview = ({ tasks = [], categories = [], className }) => {
       </div>
       
       {/* Stats Grid */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+<div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         {statCards.map((stat, index) => (
           <motion.div
             key={stat.title}
@@ -128,7 +128,7 @@ const StatsOverview = ({ tasks = [], categories = [], className }) => {
           <h3 className="text-lg font-semibold font-display text-gray-900 mb-4">
             Categories
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+<div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2 sm:gap-3">
             {categories.map((category) => {
               const categoryTasks = tasks.filter(task => 
                 task.categoryId?.toString() === category.Id.toString()
